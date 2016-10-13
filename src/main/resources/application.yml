@@ -1,0 +1,12 @@
+# Servlet Container Server settings
+server:
+    port: 8081
+
+
+spring.data.elasticsearch.cluster-nodes : localhost:9300
+spring.data.elasticsearch.repositories.enabled : true
+
+# LOGGING
+logging:
+    level:
+       com.ibatis:DEBUG
