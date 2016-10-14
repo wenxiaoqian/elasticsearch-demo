@@ -1,4 +1,4 @@
-package com.welab.boot;
+package com.welab.boot.config;
 
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;
@@ -19,7 +19,7 @@ import java.net.UnknownHostException;
  * Created by WXQ on 2016/10/13.
  */
 @Configuration
-@EnableElasticsearchRepositories(basePackages = {"com.welab.boot"})
+@EnableElasticsearchRepositories(basePackages = {"com.welab.boot.repository"})
 public class ElasticSearchConfig {
 
     @Resource
